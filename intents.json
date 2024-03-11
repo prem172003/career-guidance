@@ -1,0 +1,310 @@
+{"intents": [
+    {"tag": "Hello",
+         "patterns": ["hello","hii"],
+         "responses": ["Hello,How can i help you ?",""],
+         "context": [""]
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke"],
+         "responses": ["Your Love Story","Your Career path is not a joke"],
+         "context": [""]
+        },
+        {"tag": "repeat",
+        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+        },
+        {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+        "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+       },
+       {"tag": "thanks",
+       "patterns": ["Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!","Ask me more.I'm ready to help"]
+       },
+      {"tag": "no-response",
+      "patterns": [""],
+      "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+      },
+      {"tag": "help",
+      "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+      "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+      },
+      {"tag": "hate-you",
+        "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"]
+      },
+      {"tag": "hate-me",
+      "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+      "responses": ["Why do you think so?", "I'm sorry if i have exhibited any sort of behaviour to make you think that."]
+      },
+      {"tag": "stupid",
+      "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+      "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+      },
+      {"tag": "location",
+      "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+      "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ]
+      },
+      {"tag": "ask",
+      "patterns": ["Can I ask you something?"],
+      "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me about your career. I'll do my best to answer you"]
+      },
+      {"tag":"god",
+      "patterns":["Who is your god?","who created you?"],
+      "responses":["I was created by the four gods. My gods are 'Mr.Prem, Mr.Kodieswaran, Mr.Arun, Mr.Kumanan'."]
+      },
+
+        {
+            "tag": "job_opportunities_civil",
+            "patterns": [
+              "Job opportunities after BE civil",
+              "Career options for civil engineers",
+              "What jobs can I get with a BE in Civil Engineering?",
+              "After completing BE civil, what are the employment prospects?"
+            ],
+            "responses": [
+              "After completing your BE in Civil Engineering, you can explore various job opportunities in the construction industry.",
+              "Civil engineers are in demand in sectors such as infrastructure development, real estate, and environmental engineering.",
+              "Some job options include roles in structural engineering, transportation engineering, geotechnical engineering, and water resources engineering.",
+              "You can also consider working as a project manager, construction manager, or in research and development within the civil engineering field."
+            ],
+            "context": [""]
+          },
+          {
+            "tag": "job_opportunities_cse",
+            "patterns": [
+                "Job opportunities after BE computer science and engineering",
+                "Career options for computer science engineers",
+                "After completing BE CSE, what are the available job opportunities in the tech industry?",
+                "Can you provide information about employment opportunities for BE CSE graduates?",
+                "What jobs can I get with a BE in Computer Science and Engineering?",
+                "After completing BE CSE, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Computer Science and Engineering, a plethora of job opportunities await you in the tech industry.Computer science engineers are highly sought after in sectors such as software development, IT consulting, and data analytics.",
+                "Some job options include roles in software engineering, web development, artificial intelligence, cybersecurity, and database administration.",
+                "You can explore opportunities as a system analyst, network engineer, software architect, or in research and development within the computer science and technology field.",
+                "The demand for computer science professionals continues to grow, offering diverse career paths and competitive salaries.",
+                "Upon completing your BE in Computer Science and Engineering, you'll find a wide array of job opportunities in the dynamic field of technology. Roles in software development, data science, and cybersecurity are in high demand."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities_it",
+            "patterns": [
+                "Job opportunities after BE information technology",
+                "Career options for IT engineers",
+                "What jobs can I get with a BE in Information Technology?",
+                "After completing BE IT, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Information Technology, you'll find a plethora of job opportunities in the tech industry. IT engineers are highly sought after in sectors such as software development, IT consulting, and data analytics.",
+                "Some job options include roles in software engineering, web development, artificial intelligence, cybersecurity, and database administration.",
+                "You can explore opportunities as a system analyst, network engineer, software architect, or in research and development within the information technology field.",
+                "The demand for IT professionals continues to grow, offering diverse career paths and competitive salaries.",
+                "Upon completing your BE in Information Technology, you'll find a wide array of job opportunities in the dynamic field of technology. Roles in software development, data science, and cybersecurity are in high demand."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities_Mechanical",
+            "patterns": [
+                "Tell me about the career options for mechanical engineers after graduation.",
+                "Job opportunities after BE mechanical engineering",
+                "Career options for mechanical engineers",
+                "After completing BE Mechanical, what are the available job opportunities in the industry?",
+                "What jobs can I get with a BE in Mechanical Engineering?",
+                "After completing BE Mechanical, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Mechanical Engineering, you'll find a plethora of job opportunities in various industries. Mechanical engineers are highly sought after in sectors such as manufacturing, automotive, and aerospace.",
+                "Some job options include roles in mechanical design, manufacturing engineering, automotive engineering, and thermal analysis.",
+                "You can explore opportunities as a project engineer, quality control engineer, maintenance engineer, or in research and development within the mechanical engineering field.",
+                "The demand for mechanical engineers continues to grow, offering diverse career paths and competitive salaries.",
+                "The job market for BE Mechanical Engineering graduates is rich with possibilities. You can venture into diverse career paths such as project engineering, quality control, and maintenance engineering. Additionally, the demand for mechanical engineers continues to grow, offering competitive salaries and opportunities for specialization in areas like product development, energy systems, and industrial automation."            
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities_ece",
+            "patterns": [
+                "Job opportunities after BE electronics and communication engineering",
+                "Career options for ECE engineers",
+                "Tell me about the career options for ECE engineers after graduation.",
+                "What types of jobs can I pursue with a BE in Electronics and Communication Engineering?",
+                "What jobs can I get with a BE in Electronics and Communication Engineering?",
+                "After completing BE ECE, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Electronics and Communication Engineering, a variety of job opportunities await you in the tech and communication industry.",
+                "ECE engineers are in demand in sectors such as telecommunications, electronics manufacturing, and research and development.",
+                "Some job options include roles in telecommunications engineering, embedded systems development, signal processing, and semiconductor manufacturing.",
+                "You can also consider opportunities in network engineering, wireless communication, or pursue research and development in cutting-edge technologies within the electronics and communication field.",
+                "The demand for ECE professionals continues to grow, offering diverse career paths and opportunities for specialization."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities_eee",
+            "patterns": [
+                "Job opportunities after BE electrical and electronics engineering",
+                "Career options for EEE engineers",
+                "After BE EEE, what are the specific roles and positions I can apply for in the electrical and electronics sector?",
+                "What jobs can I get with a BE in Electrical and Electronics Engineering?",
+                "What are the emerging trends in job opportunities for EEE graduates?",
+                "After completing BE EEE, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Electrical and Electronics Engineering, you'll find a variety of job opportunities in diverse industries.",
+                "EEE engineers are in demand in sectors such as power generation, renewable energy, electronics manufacturing, and automation.",
+                "Some job options include roles in electrical design, power system engineering, control systems, and robotics.",
+                "You can explore opportunities in energy management, telecommunications, or pursue research and development in cutting-edge technologies within the electrical and electronics field.",
+                "The demand for EEE professionals continues to grow, offering diverse career paths and opportunities for specialization."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities_chemical",
+            "patterns": [
+                "Job opportunities after BE chemical engineering",
+                "Career options for chemical engineers",
+                "After completing BE Chemical Engineering, what are the available job opportunities in the chemical industry?",
+                "What jobs can I get with a BE in Chemical Engineering?",
+                "What types of jobs can I pursue with a BE in Chemical Engineering?",
+                "After completing BE chemical engineering, what are the employment prospects?"
+            ],
+            "responses": [
+                "After completing your BE in Chemical Engineering, a range of job opportunities awaits you in various industries.",
+                "Chemical engineers are in demand in sectors such as pharmaceuticals, petrochemicals, environmental engineering, and materials manufacturing.",
+                "Some job options include roles in process engineering, chemical plant operations, research and development, and quality control.",
+                "You can also explore opportunities in industries like food and beverage, energy, or pursue a career in environmental sustainability and waste management.",
+                "The demand for chemical engineers continues to grow, offering diverse career paths and opportunities for specialization."
+            ],
+            "context": [""]
+        },        
+           
+        {
+            "tag": "postgraduate_studies_civil",
+            "patterns": [
+                "Postgraduate studies options after BE civil",
+                "Further education for civil engineers",
+                "Options for higher education after completing BE in Civil Engineering?",
+                "Options for higher education after completing BE in Civil Engineering?",
+                "MS or MTech after BE in Civil Engineering?",
+                "Specializations for postgraduate studies in civil engineering"
+            ],
+            "responses": [
+                "After completing your BE in Civil Engineering, you can pursue postgraduate studies to enhance your knowledge and career prospects.",
+                "Consider options like Master's in Civil Engineering (M.Tech), Master's in Structural Engineering, or Master's in Transportation Engineering.",
+                "You can also explore research-oriented programs such as a Ph.D. in Civil Engineering for a career in academia or advanced research positions.",
+                "Specializations like environmental engineering, geotechnical engineering, or construction management are popular choices for postgraduate studies in civil engineering."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_studies_cse",
+            "patterns": [
+                "Postgraduate studies options after BE computer science and engineering",
+                "Further education for computer science engineers",
+                "Options for higher education after completing BE in Computer Science and Engineering?",
+                "MS or MTech after BE in Computer Science and Engineering?",
+                "Specializations for postgraduate studies in computer science and engineering"
+            ],
+            "responses": [
+                "After completing your BE in Computer Science and Engineering, pursuing postgraduate studies can open up new opportunities and deepen your expertise.",
+                "Consider options like Master's in Computer Science (M.S. or M.Tech), Master's in Artificial Intelligence, or Master's in Data Science.",
+                "Exploring research-oriented programs such as a Ph.D. in Computer Science can lead to a rewarding career in academia or advanced research positions.",
+                "Specializations such as cybersecurity, machine learning, or software engineering are popular choices for postgraduate studies in computer science and engineering."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_studies_it",
+            "patterns": [
+                "Postgraduate studies options after BE information technology",
+                "Further education for IT engineers",
+                "Options for higher education after completing BE in Information Technology?",
+                "MS or MTech after BE in Information Technology?",
+                "Specializations for postgraduate studies in information technology"
+            ],
+            "responses": [
+                "After completing your BE in Information Technology, pursuing postgraduate studies can enhance your skills and open doors to advanced career opportunities.",
+                "Consider options like Master's in Information Technology (M.S. or M.Tech), Master's in Cybersecurity, or Master's in Business Analytics.",
+                "Exploring research-oriented programs such as a Ph.D. in Information Technology can lead to a fulfilling career in academia or advanced research positions.",
+                "Specializations such as cloud computing, data science, or software development are popular choices for postgraduate studies in information technology."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_studies_mechanical",
+            "patterns": [
+                "Postgraduate studies options after BE mechanical engineering",
+                "Further education for mechanical engineers",
+                "Options for higher education after completing BE in Mechanical Engineering?",
+                "MS or MTech after BE in Mechanical Engineering?",
+                "Specializations for postgraduate studies in mechanical engineering"
+            ],
+            "responses": [
+                "After completing your BE in Mechanical Engineering, pursuing postgraduate studies can advance your expertise and open up diverse career pathways.",
+                "Consider options like Master's in Mechanical Engineering (M.S. or M.Tech), Master's in Automotive Engineering, or Master's in Energy Systems.",
+                "Exploring research-oriented programs such as a Ph.D. in Mechanical Engineering can lead to a rewarding career in academia or advanced research positions.",
+                "Specializations such as robotics, thermal sciences, or materials engineering are popular choices for postgraduate studies in mechanical engineering."
+            ],
+            "context": [""]
+        }, 
+        {
+            "tag": "postgraduate_studies_ece",
+            "patterns": [
+                "Postgraduate studies options after BE electronics and communication engineering",
+                "Further education for ECE engineers",
+                "Options for higher education after completing BE in Electronics and Communication Engineering?",
+                "MS or MTech after BE in Electronics and Communication Engineering?",
+                "Specializations for postgraduate studies in electronics and communication engineering"
+            ],
+            "responses": [
+                "After completing your BE in Electronics and Communication Engineering, pursuing postgraduate studies can enhance your skills and open doors to advanced career opportunities.",
+                "Consider options like Master's in Electronics and Communication Engineering (M.S. or M.Tech), Master's in VLSI Design, or Master's in Wireless Communication.",
+                "Exploring research-oriented programs such as a Ph.D. in Electronics and Communication Engineering can lead to a fulfilling career in academia or advanced research positions.",
+                "Specializations such as signal processing, embedded systems, or RF engineering are popular choices for postgraduate studies in electronics and communication engineering."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_studies_eee",
+            "patterns": [
+                "Postgraduate studies options after BE electrical and electronics engineering",
+                "Further education for EEE engineers",
+                "Options for higher education after completing BE in Electrical and Electronics Engineering?",
+                "MS or MTech after BE in Electrical and Electronics Engineering?",
+                "Specializations for postgraduate studies in electrical and electronics engineering"
+            ],
+            "responses": [
+                "After completing your BE in Electrical and Electronics Engineering, pursuing postgraduate studies can advance your skills and provide opportunities for specialized career paths.",
+                "Consider options like Master's in Electrical and Electronics Engineering (M.S. or M.Tech), Master's in Power Systems, or Master's in Control Systems.",
+                "Exploring research-oriented programs such as a Ph.D. in Electrical and Electronics Engineering can lead to a fulfilling career in academia or advanced research positions.",
+                "Specializations such as renewable energy, automation, or electric vehicle systems are popular choices for postgraduate studies in electrical and electronics engineering."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_studies_chemical",
+            "patterns": [
+                "Postgraduate studies options after BE chemical engineering",
+                "Further education for chemical engineers",
+                "Options for higher education after completing BE in Chemical Engineering?",
+                "MS or MTech after BE in Chemical Engineering?",
+                "Specializations for postgraduate studies in chemical engineering"
+            ],
+            "responses": [
+                "After completing your BE in Chemical Engineering, pursuing postgraduate studies can deepen your expertise and provide specialized career opportunities.",
+                "Consider options like Master's in Chemical Engineering (M.S. or M.Tech), Master's in Process Engineering, or Master's in Biochemical Engineering.",
+                "Exploring research-oriented programs such as a Ph.D. in Chemical Engineering can lead to a rewarding career in academia or advanced research positions.",
+                "Specializations such as environmental engineering, polymer engineering, or petrochemical engineering are popular choices for postgraduate studies in chemical engineering."
+            ],
+            "context": [""]
+        }
+
+   ]
+
+}
+   

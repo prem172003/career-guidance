@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Finder</title>
+    <link rel="icon" type="image/x-icon" href="./tt.png">
+    <link rel="stylesheet" href="app.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+        <div id="img">
+            <!-- <img src="./image.svg.svg" alt=""> -->
+        </div>
+        <!-- <img id="img" src="" alt=""> -->
+        <!-- <a href=""  class="logo">Start Your Engine</a> -->
+        <!-- <ul class="items">
+            <li class="item">
+                <a href="" class="link">Login</a>
+                <a href="" class="link">Signup</a>
+            </li>
+        </ul> -->
+        <div class="buttons"> <button class="button1" id="form-open">Login</button>
+            <!-- <button class="button2">Signup</button> -->
+        </div>
+       
+    </nav>
+</header>
+<section class="home">
+    <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- login -->
+        <div class="form login_form">
+            <form action="#">
+                <h2>Login</h2>
+                <div class="inputbox">
+                    <input type="email" placeholder="Enter your email" required>
+                  <i class="uil uil-envelope-alt"></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" placeholder="Enter your password" required>
+                  <i class="uil uil-lock password"></i>
+                  <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="option_field">
+                    <span class="checkbox">
+                        <input type="checkbox" id="check">
+                        <label for="check">Remember me</label>
+                    </span>
+                    <a href="" class="forgot_pw">Forgot passward?</a>
+                </div>
+                <button class="log-button">Login Now</button>
+
+                <div class="login_signup">don't have an account <a href="#" id="Signup">Signup</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- Signup -->
+
+        <div class=" form Signup_form">
+            <form action="#">
+                <h2>Signup</h2>
+                <div class="inputbox">
+                    <input type="email" placeholder="Enter your email" required>
+                  <i class="uli uli-envelope-alt"></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" placeholder="Create password" required>
+                  <i class="uil uil-lock password"></i>
+                  <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                
+                <div class="inputbox">
+                    <input type="password" placeholder="Confirm password" required>
+                  <i class="uil uil-lock password"></i>
+                  <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                
+                <button class="log-button">Signup Now</button>
+
+                <div class="login_signup">Already have an account <a href="#" id="Login">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- chatbot -->
+<section class="chatbot">
+    <div class="chatbott" id="">	
+                <div id="card" >
+                    <div class="card-header msg_head">
+                        <div class="">
+                            <div class="img_cont">
+                                <span class="online_icon"></span>
+                            </div>
+                            <div class="user_info">
+                                <span>ChatBot</span>
+                                <p>Ask me anything!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="messageFormeight" class="card-body msg_card_body">
+                        
+                        
+                    </div>
+                    <div class="card-footer">
+                        <form id="messageArea" class="input-group">
+                            <input type="text" id="text" name="msg" placeholder="Type your message..." autocomplete="off" class="form-control type_msg" required/>
+                            <div class="input-group-append">
+                                <button type="submit" id="send" class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            
+    </div>
+
+</section>
+<script src="app.js"></script>
+</body>
+</html>
